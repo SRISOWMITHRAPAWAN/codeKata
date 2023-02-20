@@ -524,4 +524,31 @@ var arr=[
 
   ////output///
   [ { name: 'anu', age: 25 }, { name: 'mithran', age: 27 } ]
-  /////
+  /////////////////end of array and object//////////////////////
+
+//////slice////////
+var arr=["jan","feb","march","april","may","june"]
+var res=arr.slice(0,3)//(start,n-1(index))
+console.log(res)
+
+/////output///
+[ 'jan', 'feb', 'march' ]
+
+
+var arr=["jan","feb","march","april","may","june"]
+var res=arr.slice(3)//(start,n-1(index))
+console.log(res)
+
+///output///
+[ 'april', 'may', 'june' ]
+
+
+/////////////////////splice///////////////////////////
+
+var arr=["jan","feb","dec","may","june"]
+arr.splice(2,0,"march")
+arr.splice(3,1,"april")
+console.log(arr)
+
+//////output/////
+[ 'jan', 'feb', 'march', 'april', 'may', 'june' ]
