@@ -524,3 +524,4 @@ var arr=[
 
   ////output///
   [ { name: 'anu', age: 25 }, { name: 'mithran', age: 27 } ]
+  /////
